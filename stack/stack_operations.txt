@@ -1,0 +1,14 @@
+1. push()
+   operation : add data to top+1 of stack
+   if stack size is less than max size of stack then add data
+   else overflow
+
+2. pop()
+   operation : return top data and move top to top-1
+   if stack size is more than 1 then return data
+   else underflow
+
+3. peek()
+   operation : get top data of stack
+   if stack is empty then return null
+   else return top data
